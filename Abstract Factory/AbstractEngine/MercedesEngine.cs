@@ -12,6 +12,8 @@ namespace AbstractFactory.AbstractEngine
 
         public override void GetInfo()
         {
+            Console.WriteLine("------------------------");
+            Console.WriteLine("Марка: Mercedes-Benz ");
             base.GetInfo();
             Console.WriteLine(@"Модификация: MB 229.5");
         }

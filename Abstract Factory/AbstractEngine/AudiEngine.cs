@@ -12,6 +12,8 @@ namespace AbstractFactory.AbstractEngine
 
         public override void GetInfo()
         {
+            Console.WriteLine("------------------------");
+            Console.WriteLine("Марка: Audi ");
             base.GetInfo();
             Console.WriteLine(@"Модификация: TFSI");
         }
