@@ -5,9 +5,24 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{B6E4B78E-6748-4886-A11E-2891CEC3B3D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Abstract Factory\AbstractFactory.csproj", "{A4903C5B-6377-43CF-87C9-35F3F2C1A7ED}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4903C5B-6377-43CF-87C9-35F3F2C1A7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4903C5B-6377-43CF-87C9-35F3F2C1A7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4903C5B-6377-43CF-87C9-35F3F2C1A7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4903C5B-6377-43CF-87C9-35F3F2C1A7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4903C5B-6377-43CF-87C9-35F3F2C1A7ED} = {B6E4B78E-6748-4886-A11E-2891CEC3B3D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4DD5D786-3D24-4704-8831-5A1C1C614E98}
