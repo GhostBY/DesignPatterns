@@ -20,13 +20,22 @@ namespace AbstractFactory
             //audiEngine.GetInfo();
             //AbstractEngine MBngine = new MercedesEngine("Diesel", 3.2);
             //MBngine.GetInfo();
+
             AbstractEngine.AbstractEngine audiEngine = new AudiEngine("Diesel", 2.0);
-            AbstractBody.AudiBody audiBody = new AudiBody("Universal","Red",5);
+            AbstractBody.AudiBody audiBody = new AudiBody("Universal", "Red", 5);
             AbstractWheels.AbstractWheels audiWheels = new AudiWheels();
             AbstractFactory.AbstractFactory audiFactory = new AudiFactory();
             AbstractCar.AbstractCar audi = audiFactory.CreateCar(audiBody, audiEngine, audiWheels);
             audi.GetInfo();
-           Console.ReadLine();
+
+            AbstractEngine.AbstractEngine BMWEngine = new BMWEngine("Diesel", 3.0);
+            AbstractBody.BMWBody BMWBody = new BMWBody("Sedan", "Black", 5);
+            AbstractWheels.AbstractWheels BMWWheels = new BMWWheels();
+            AbstractFactory.AbstractFactory BMWFactory = new BMWFactory();
+            AbstractCar.AbstractCar BMW = BMWFactory.CreateCar(BMWBody, BMWEngine, BMWWheels);
+            BMW.GetInfo();
+
+            Console.ReadLine();
         }
     }
 }

@@ -7,7 +7,7 @@ namespace AbstractFactory.AbstractEngine
     class AudiEngine:AbstractEngine
     {
         public AudiEngine(string Type, double Value) : base(Type, Value)
-        {
+        { 
         }
 
         public override void GetInfo()

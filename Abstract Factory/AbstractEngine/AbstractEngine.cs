@@ -15,6 +15,11 @@ namespace AbstractFactory.AbstractEngine
             this.Value = Value;
         }
 
+        public AbstractEngine()
+        {
+            
+        }
+
         public virtual void GetInfo()
         {
             Console.WriteLine(@"Тип: {0} ",Type);
