@@ -6,8 +6,6 @@ namespace AbstractFactory.AbstractFactory
 {
      public abstract class AbstractFactory
      {
-         public abstract AbstractEngine.AbstractEngine CreateEngine();
-         public abstract AbstractBody.AbstractBody CreateBody();
-         public abstract AbstractWheels.AbstractWheels CreateWheels();
+         public abstract AbstractCar.AbstractCar CreateCar(AbstractBody.AbstractBody body, AbstractEngine.AbstractEngine engine, AbstractWheels.AbstractWheels wheels);
      }
 }
