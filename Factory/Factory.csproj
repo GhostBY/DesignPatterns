@@ -42,16 +42,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\Notebook.cs" />
+    <Compile Include="Abstract\NotebookFactory.cs" />
+    <Compile Include="Entities\Asus.cs" />
+    <Compile Include="Entities\Dell.cs" />
+    <Compile Include="Entities\HP.cs" />
+    <Compile Include="Entities\Lenovo.cs" />
+    <Compile Include="Factory\AsusFactory.cs" />
+    <Compile Include="Factory\DellFactory.cs" />
+    <Compile Include="Factory\HPFactory.cs" />
+    <Compile Include="Factory\LenovoFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Entities\" />
-    <Folder Include="Factory\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
