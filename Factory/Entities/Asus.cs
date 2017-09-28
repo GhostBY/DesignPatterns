@@ -12,6 +12,10 @@ namespace Factory.Entities
         public override string Company { get; }
         public override string Model { get; set; }
         public override double Price { get; set; }
+        public  void GetInfo()
+        {
+           base.GetInfo();
+        }
 
         public Asus(string Model, double Price)
         {

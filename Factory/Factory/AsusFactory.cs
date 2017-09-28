@@ -21,5 +21,7 @@ namespace Factory.Factory
         {
             return new Asus(_model,_price);
         }
+
+        
     }
 }

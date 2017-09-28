@@ -20,5 +20,10 @@ namespace Factory.Entities
             this.Price = Price;
         }
 
+        public void GetInfo()
+        {
+            base.GetInfo();
+        }
+
     }
 }
